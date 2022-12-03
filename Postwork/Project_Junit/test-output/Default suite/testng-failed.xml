@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Project_Junit.TestPizzeriaEjercicio1">
+      <class name="Project_Junit.TestPizzeriaEjercicio2">
         <methods>
+          <include name="verificarSaldoEntre100Y150"/>
           <include name="preConditions"/>
-          <include name="guardarIngredientesComoHongos"/>
+          <include name="verificarSaldoMenorA50"/>
           <include name="initialConditions"/>
         </methods>
-      </class> <!-- Project_Junit.TestPizzeriaEjercicio1 -->
+      </class> <!-- Project_Junit.TestPizzeriaEjercicio2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

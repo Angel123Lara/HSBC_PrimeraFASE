@@ -1,77 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-03T13:49:02 CST" name="Default suite" finished-at="2022-12-03T13:49:02 CST" duration-ms="121">
+  <suite started-at="2022-12-03T14:27:34 CST" name="Default suite" finished-at="2022-12-03T14:27:34 CST" duration-ms="93">
     <groups>
     </groups>
-    <test started-at="2022-12-03T13:49:02 CST" name="Default test" finished-at="2022-12-03T13:49:02 CST" duration-ms="121">
-      <class name="Project_Junit.TestPizzeriaEjercicio1">
-        <test-method is-config="true" signature="preConditions()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="preConditions" finished-at="2022-12-03T13:49:02 CST" duration-ms="9" status="PASS">
+    <test started-at="2022-12-03T14:27:34 CST" name="Default test" finished-at="2022-12-03T14:27:34 CST" duration-ms="93">
+      <class name="Project_Junit.TestPizzeriaEjercicio2">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="preConditions" finished-at="2022-12-03T14:27:34 CST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preConditions -->
-        <test-method is-config="true" signature="initialConditions()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="initialConditions" finished-at="2022-12-03T13:49:02 CST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initialConditions()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="initialConditions" finished-at="2022-12-03T14:27:34 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialConditions -->
-        <test-method signature="guardarIngredientesComoHongos()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="guardarIngredientesComoHongos" finished-at="2022-12-03T13:49:02 CST" duration-ms="35" status="PASS">
+        <test-method signature="verificarClienteConTarjeta()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="verificarClienteConTarjeta" finished-at="2022-12-03T14:27:34 CST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- guardarIngredientesComoHongos -->
-        <test-method signature="verificarGuardarIngrediente1ComoOpcionInvalida()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarGuardarIngrediente1ComoOpcionInvalida" finished-at="2022-12-03T13:49:02 CST" duration-ms="1" status="PASS">
+        </test-method> <!-- verificarClienteConTarjeta -->
+        <test-method signature="verificarClienteSinTarjeta()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="verificarClienteSinTarjeta" finished-at="2022-12-03T14:27:34 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verificarGuardarIngrediente1ComoOpcionInvalida -->
-        <test-method signature="verificarGuardarIngrediente1ComoPeperoni()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarGuardarIngrediente1ComoPeperoni" finished-at="2022-12-03T13:49:02 CST" duration-ms="1" status="PASS">
+        </test-method> <!-- verificarClienteSinTarjeta -->
+        <test-method signature="verificarGuardarCupon()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="verificarGuardarCupon" finished-at="2022-12-03T14:27:34 CST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verificarGuardarIngrediente1ComoPeperoni -->
-        <test-method signature="verificarGuardarIngrediente1ComoPimiento()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarGuardarIngrediente1ComoPimiento" finished-at="2022-12-03T13:49:02 CST" duration-ms="1" status="PASS">
+        </test-method> <!-- verificarGuardarCupon -->
+        <test-method signature="verificarNoGuardarCupon()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="verificarNoGuardarCupon" finished-at="2022-12-03T14:27:34 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verificarGuardarIngrediente1ComoPimiento -->
-        <test-method signature="verificarGuardarIngrediente2ComoHongos()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarGuardarIngrediente2ComoHongos" finished-at="2022-12-03T13:49:02 CST" duration-ms="1" status="PASS">
+        </test-method> <!-- verificarNoGuardarCupon -->
+        <test-method signature="verificarSaldoEntre100Y150()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="verificarSaldoEntre100Y150" finished-at="2022-12-03T14:27:34 CST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verificarGuardarIngrediente2ComoHongos -->
-        <test-method signature="verificarGuardarIngrediente2ComoJamon()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarGuardarIngrediente2ComoJamon" finished-at="2022-12-03T13:49:02 CST" duration-ms="1" status="PASS">
+        </test-method> <!-- verificarSaldoEntre100Y150 -->
+        <test-method signature="verificarSaldoEntre50Y100()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="verificarSaldoEntre50Y100" finished-at="2022-12-03T14:27:34 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verificarGuardarIngrediente2ComoJamon -->
-        <test-method signature="verificarGuardarIngrediente3ComoEspinaca()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarGuardarIngrediente3ComoEspinaca" finished-at="2022-12-03T13:49:02 CST" duration-ms="1" status="PASS">
+        </test-method> <!-- verificarSaldoEntre50Y100 -->
+        <test-method signature="verificarSaldoMayorA150()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="verificarSaldoMayorA150" finished-at="2022-12-03T14:27:34 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verificarGuardarIngrediente3ComoEspinaca -->
-        <test-method signature="verificarGuardarIngrediente3ComoSalchicha()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarGuardarIngrediente3ComoSalchicha" finished-at="2022-12-03T13:49:02 CST" duration-ms="1" status="PASS">
+        </test-method> <!-- verificarSaldoMayorA150 -->
+        <test-method signature="verificarSaldoMenorA50()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio2@120f102b]" started-at="2022-12-03T14:27:34 CST" name="verificarSaldoMenorA50" finished-at="2022-12-03T14:27:34 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verificarGuardarIngrediente3ComoSalchicha -->
-        <test-method signature="verificarListaIngredientesNoVegetarianos()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarListaIngredientesNoVegetarianos" finished-at="2022-12-03T13:49:02 CST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarListaIngredientesNoVegetarianos -->
-        <test-method signature="verificarListaIngredientesVegetarianos()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarListaIngredientesVegetarianos" finished-at="2022-12-03T13:49:02 CST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarListaIngredientesVegetarianos -->
-        <test-method signature="verificarMensajeDeInicioSeDespliega()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarMensajeDeInicioSeDespliega" finished-at="2022-12-03T13:49:02 CST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarMensajeDeInicioSeDespliega -->
-        <test-method signature="verificarOpcionVegAlPreguntarOpcionVeganaFalse()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarOpcionVegAlPreguntarOpcionVeganaFalse" finished-at="2022-12-03T13:49:02 CST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarOpcionVegAlPreguntarOpcionVeganaFalse -->
-        <test-method signature="verificarOpcionVegAlPreguntarOpcionVeganaTrue()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarOpcionVegAlPreguntarOpcionVeganaTrue" finished-at="2022-12-03T13:49:02 CST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarOpcionVegAlPreguntarOpcionVeganaTrue -->
-        <test-method signature="verificarOpcionVeganaVerdadera()[pri:0, instance:Project_Junit.TestPizzeriaEjercicio1@2accdbb5]" started-at="2022-12-03T13:49:02 CST" name="verificarOpcionVeganaVerdadera" finished-at="2022-12-03T13:49:02 CST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarOpcionVeganaVerdadera -->
-      </class> <!-- Project_Junit.TestPizzeriaEjercicio1 -->
+        </test-method> <!-- verificarSaldoMenorA50 -->
+      </class> <!-- Project_Junit.TestPizzeriaEjercicio2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
