@@ -1,0 +1,25 @@
+package Project_Junit;
+
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+
+public class CommonMethods {
+
+	public void redirectStdOutput(String stdOutputPath) throws FileNotFoundException{
+		;
+	}
+
+	public String readFileContents(String stdOutputPath) {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+	public void redirectStdInput(String stdInputPath) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+}

@@ -1,0 +1,5 @@
+Bienvenido a la aplicación para ordenar pizza.
+
+Sigue las instrucciones por favor.
+
+

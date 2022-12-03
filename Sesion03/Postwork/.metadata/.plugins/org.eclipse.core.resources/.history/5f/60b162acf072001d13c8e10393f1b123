@@ -1,0 +1,60 @@
+package Project_Junit;
+import java.io.IOException;
+import java.io.File;
+//import java.io.FileNotFoundException;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+
+
+public class CommonMethods {
+	
+	
+	public void redirectStdOutput(String stdOutputPath) throws FileNotFoundException{
+		
+		PrintStream fichero = new PrintStream(new File(stdOutputPath));
+
+		//Ahora podemos cambiar de pantalla a fichero y viceversa siempre que queramos
+		System.setOut(fichero);
+		
+		
+		
+	}
+
+	public String readFileContents(String stdOutputPath) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		
+		try {
+            FileInputStream entrada=new FileInputStream(stdOutputPath);
+
+                int c=0;
+
+                String texto = "";
+				while(c!=-1) {
+                    c=entrada.read();
+
+                    char letra=(char)c;
+
+                    texto+=letra;
+                }
+
+                entrada.close();
+
+                System.out.println(texto);
+
+        } catch (IOException e) {
+
+            System.out.println("No se ha encontrado el archivo");
+        }
+		
+		return "Hola";
+	}
+
+	public void redirectStdInput(String stdInputPath) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+}

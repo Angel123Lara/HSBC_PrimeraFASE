@@ -1,0 +1,9 @@
+package Project_Junit;
+
+import org.testng.annotations.Test;
+
+public class TestPizzeriaEjercicio1 {
+  @Test
+  public void f() {
+  }
+}

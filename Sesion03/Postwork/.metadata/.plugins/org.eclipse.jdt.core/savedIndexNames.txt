@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+C:\Users\aj.lara\Documents\Angel Personal Temporal\BeduCursoHSBC\PrimerFase\Sesion03\Postwork\.metadata\.plugins\org.eclipse.jdt.core
+25189892.index
+1518617380.index
+1126157392.index
+3565436107.index
+3773317215.index
+1734976903.index
+1150145265.index
+1865797976.index
